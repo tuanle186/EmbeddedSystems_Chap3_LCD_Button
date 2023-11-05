@@ -104,8 +104,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   system_init();
   lcd_Clear(WHITE);
-//  test_lcd();
-  lcd_ShowPicture(0, 0, 240, 180, gImage_pic);
+  test_lcd();
   /* USER CODE END 2 */
 
   /* Infinite loop */
