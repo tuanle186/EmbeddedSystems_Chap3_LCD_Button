@@ -1,4 +1,4 @@
-## BKIT ARM 4 - LAB 01: Khảo sát GPIO (dùng Delay)
+## BKIT ARM 4 - LAB 03: Khảo sát LCD TOUCH và Button
 
 - Biết cách cấu hình và sử dụng timer trên kit thí nghiệm;
 - Biết cách cấu hình và sử dụng thư viện LED bảy đoạn trên kit thí nghiệm;
