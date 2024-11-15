@@ -31,6 +31,10 @@
 #include "button.h"
 #include "lcd.h"
 #include "picture.h"
+#include "mode1_normal.h"
+#include "mode234_modification.h"
+#include "global.h"
+#include "input_processing.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -104,17 +108,23 @@ int main(void)
   /* USER CODE BEGIN 2 */
   system_init();
   lcd_Clear(WHITE);
-  test_lcd();
+//  test_lcd();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  while(!flag_timer2);
-	  flag_timer2 = 0;
-	  button_Scan();
-	  test_button();
+	  mode1_normal();
+	  mode2_red();
+	  mode3_green();
+	  mode4_amber();
+	  input_processing();
+
+//	  while(!flag_timer2);
+//	  flag_timer2 = 0;
+//	  button_Scan();
+//	  test_button();
 
     /* USER CODE END WHILE */
 

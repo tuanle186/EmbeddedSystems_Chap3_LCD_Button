@@ -7,10 +7,14 @@
 C_SRCS += \
 ../Core/Src/button.c \
 ../Core/Src/fsmc.c \
+../Core/Src/global.c \
 ../Core/Src/gpio.c \
+../Core/Src/input_processing.c \
 ../Core/Src/lcd.c \
 ../Core/Src/led_7seg.c \
 ../Core/Src/main.c \
+../Core/Src/mode1_normal.c \
+../Core/Src/mode234_modification.c \
 ../Core/Src/picture.c \
 ../Core/Src/software_timer.c \
 ../Core/Src/spi.c \
@@ -24,10 +28,14 @@ C_SRCS += \
 OBJS += \
 ./Core/Src/button.o \
 ./Core/Src/fsmc.o \
+./Core/Src/global.o \
 ./Core/Src/gpio.o \
+./Core/Src/input_processing.o \
 ./Core/Src/lcd.o \
 ./Core/Src/led_7seg.o \
 ./Core/Src/main.o \
+./Core/Src/mode1_normal.o \
+./Core/Src/mode234_modification.o \
 ./Core/Src/picture.o \
 ./Core/Src/software_timer.o \
 ./Core/Src/spi.o \
@@ -41,10 +49,14 @@ OBJS += \
 C_DEPS += \
 ./Core/Src/button.d \
 ./Core/Src/fsmc.d \
+./Core/Src/global.d \
 ./Core/Src/gpio.d \
+./Core/Src/input_processing.d \
 ./Core/Src/lcd.d \
 ./Core/Src/led_7seg.d \
 ./Core/Src/main.d \
+./Core/Src/mode1_normal.d \
+./Core/Src/mode234_modification.d \
 ./Core/Src/picture.d \
 ./Core/Src/software_timer.d \
 ./Core/Src/spi.d \
